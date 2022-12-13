@@ -5,6 +5,6 @@ import pandas as pd
 
 # read csv is used to load a CSV file as a pandas dataframe
 # df stands for dataframe and it is a 2 dimensional data structure
-df = dataframe = pd.read_csv('aapl-yahoo.csv')
+df: str = pd.read_csv('aapl-yahoo.csv')
 
 print(df)
